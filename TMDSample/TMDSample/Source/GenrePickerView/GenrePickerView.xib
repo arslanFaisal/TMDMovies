@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="r7A-x6-k6P" customClass="GenrePickerView" customModule="TMDSample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="208"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cwg-OG-V83">
+                    <rect key="frame" x="0.0" y="0.0" width="416" height="208"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Cwg-OG-V83" firstAttribute="trailing" secondItem="Xf3-Km-KdQ" secondAttribute="trailing" id="9Kw-sh-FIX"/>
+                <constraint firstItem="Cwg-OG-V83" firstAttribute="top" secondItem="r7A-x6-k6P" secondAttribute="top" id="JjS-YH-bmg"/>
+                <constraint firstAttribute="bottom" secondItem="Cwg-OG-V83" secondAttribute="bottom" id="dll-6g-45t"/>
+                <constraint firstItem="Cwg-OG-V83" firstAttribute="leading" secondItem="Xf3-Km-KdQ" secondAttribute="leading" id="y6B-wN-xbD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Xf3-Km-KdQ"/>
+            <connections>
+                <outlet property="genrePickerView" destination="Cwg-OG-V83" id="v8q-sK-6Vn"/>
+            </connections>
+            <point key="canvasLocation" x="23.188405797101453" y="-4.6875"/>
+        </view>
+    </objects>
+</document>
