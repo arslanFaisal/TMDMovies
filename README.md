@@ -44,6 +44,15 @@ Code has mainly three Groups
 - Source group contains the modules with their respetive view or view controllers and view models. Source group contains further subgroups named MovieList, MovieDetail and GenrePickerView.
 - Models group contains all the models being used in the app.
 
+### Unit tests
+Following test cases are written
+
+- Movie Service test for checking if movie list fteched.
+- Movie Service test for checking if movie of a sepcific genre are fetched correctly.
+- Genre Service test for checking if genre list is fetched.
+- Configuration service test.
+- Url encoding test for URLEncoder to see if urls are being configured correctly.
+
 
 ## Built With
 - XCode 11.1
